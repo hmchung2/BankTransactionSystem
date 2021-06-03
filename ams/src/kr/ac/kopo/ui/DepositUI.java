@@ -10,6 +10,7 @@ public class DepositUI extends BaseUI {
 	public void execute() throws Exception {
 		// TODO Auto-generated method stub
 		while (true) {
+
 			System.out.println("--------------");
 			System.out.println("∞Ë¡¬ ¿‘±›");
 			System.out.println("--------------");
