@@ -69,7 +69,10 @@ public class AMSService {
 			session = true;
 			if(Arrays.asList(Config.managers).contains(username) ) {
 				isManager = true;
-			}			
+			}else {
+				isManager = false;
+			}
+			
 			vo = new AMSVO(
 					Integer.parseInt(result.get("user_id") ),
 					result.get("name"),					

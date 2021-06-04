@@ -16,7 +16,7 @@ public class SignUpUI extends BaseUI {
 			String username = scanStr("새로운 아이디를 입력하세요 :");
 			String password = scanStr("비밀번호를 입력하세요 :");
 			String repassword = scanStr("비밀번호를 다시 입력하세요 :");
-			String ssn  = scanStr("주민등록본을 입력하세요 :");
+			String ssn  = scanStr("주민등록번호 입력하세요 :");
 			
 		
 			Map<String, String> result = service.signUp(username, password, repassword, ssn, name);

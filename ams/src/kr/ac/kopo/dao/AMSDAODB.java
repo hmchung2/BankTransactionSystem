@@ -301,7 +301,7 @@ public class AMSDAODB {
 			}
 			int otherId = rs.getInt("BANK_ID");
 			Map<String, String> withdrawResult = withdraw(result, bankId , accountId, money);			
-			if(withdrawResult .get("success").equals("false") ) {
+			if(withdrawResult.get("success").equals("false") ) {
 				result.put("bank_update1" , "false");
 				result.put("enoughMoney" , "true");
 				if(withdrawResult.get("enoughMoney") =="false"  ) {
